@@ -1,0 +1,249 @@
+{
+  "suites": [
+    {
+      "tool": "shared/catalog-evidence",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/catalog-evidence",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 16,
+      "log": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.018s\n\nOK\n"
+    },
+    {
+      "tool": "shared/merge-citations",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/merge-citations",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 34,
+      "log": "..................................\n----------------------------------------------------------------------\nRan 34 tests in 0.881s\n\nOK\n"
+    },
+    {
+      "tool": "shared/merge-dependencies",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/merge-dependencies",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 44,
+      "log": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 1.415s\n\nOK\n"
+    },
+    {
+      "tool": "shared/proof-handoff",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/proof-handoff",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 20,
+      "log": "....................\n----------------------------------------------------------------------\nRan 20 tests in 2.047s\n\nOK\n"
+    },
+    {
+      "tool": "shared/proof-search",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/proof-search",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 14,
+      "log": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.532s\n\nOK\n"
+    }
+  ],
+  "total_tests": 128,
+  "demos": [
+    {
+      "command": "python3 -B shared/proof-handoff/covered_search.py demo",
+      "exit": 0,
+      "result": {
+        "format": "covered-proof-search/v1",
+        "verified": true,
+        "request_sha256": "fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b",
+        "coverage": [
+          {
+            "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+            "slots": [
+              "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b"
+            ],
+            "code": false
+          },
+          {
+            "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+            "slots": [
+              "0x0",
+              "0x1"
+            ],
+            "code": true
+          }
+        ],
+        "handoff": {
+          "format": "proof-handoff-checked/v1",
+          "verified": true,
+          "proofs_verified": true,
+          "corpus_matches_proofs": true,
+          "receipt_reproduced": true,
+          "bundle_sha256": "57ba25ab26d159efaa1c07dc28c1dc0a0e0914049df9646b46374fd04621089f",
+          "manifest_sha256": "a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f",
+          "anchor": {
+            "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+            "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+            "blockNumber": "0x18ff826",
+            "timestamp": "0x6ad36f57",
+            "headerSchema": "prague"
+          },
+          "accounts": 2,
+          "search": {
+            "format": "evidence-search-results/v1",
+            "hits": [
+              {
+                "citation": "000000000004444c5dc75cb358380d2e3de08a90.md:17-26",
+                "line_end": 26,
+                "line_start": 17,
+                "matched_terms": [
+                  "storage",
+                  "value"
+                ],
+                "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+                "score": 2.74965503,
+                "sha256": "f5f2e0f247f6f13719086bde4fc536821fc859406f939e1eafceb97b83dc8358",
+                "source_verified": true,
+                "text": "      \"storage\": [\n        {\n          \"exists\": true,\n          \"slot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n          \"value\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n        }\n      ],\n      \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n      \"verified\": true\n    }"
+              },
+              {
+                "citation": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md:25-34",
+                "line_end": 34,
+                "line_start": 25,
+                "matched_terms": [
+                  "value"
+                ],
+                "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+                "score": 2.3540622,
+                "sha256": "1038dacf5518b723f65fd89fbc34068dfdf764be00333893c183f0a8d9aa1f15",
+                "source_verified": true,
+                "text": "          \"exists\": false,\n          \"slot\": \"0x0\",\n          \"value\": \"0x0\"\n        },\n        {\n          \"exists\": false,\n          \"slot\": \"0x1\",\n          \"value\": \"0x0\"\n        }\n      ],"
+              },
+              {
+                "citation": "000000000004444c5dc75cb358380d2e3de08a90.md:1-10",
+                "line_end": 10,
+                "line_start": 1,
+                "matched_terms": [
+                  "storage"
+                ],
+                "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+                "score": 0.48875126,
+                "sha256": "f5f2e0f247f6f13719086bde4fc536821fc859406f939e1eafceb97b83dc8358",
+                "source_verified": true,
+                "text": "# Ethereum account proof result\nAddress: 0x000000000004444c5dc75cb358380d2e3de08a90\nBlock number (decimal): 26212390\nCheckpoint, canonicality and finality require independent authentication.\nRaw storage slots are not interpreted as price, decimals or token balance.\nStored code identity does not establish source or execution behavior.\n```json\n{\n  \"account\": {\n    \"state\": {"
+              },
+              {
+                "citation": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md:1-10",
+                "line_end": 10,
+                "line_start": 1,
+                "matched_terms": [
+                  "storage"
+                ],
+                "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+                "score": 0.48875126,
+                "sha256": "1038dacf5518b723f65fd89fbc34068dfdf764be00333893c183f0a8d9aa1f15",
+                "source_verified": true,
+                "text": "# Ethereum account proof result\nAddress: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\nBlock number (decimal): 26212390\nCheckpoint, canonicality and finality require independent authentication.\nRaw storage slots are not interpreted as price, decimals or token balance.\nStored code identity does not establish source or execution behavior.\n```json\n{\n  \"account\": {\n    \"code\": {"
+              }
+            ],
+            "indexed_documents": 2,
+            "indexed_passages": 11,
+            "query": "storage value",
+            "require_all": false,
+            "terms": [
+              "storage",
+              "value"
+            ]
+          },
+          "trust": "Every listed account and slot is proven against one header matching the supplied hash. The caller must authenticate that hash, chain, canonicality and finality independently. Code checks establish stored byte identity only, not source, ABI, layout, proxy targets or behavior."
+        },
+        "limits": [
+          "Authenticate the caller request and checkpoint independently.",
+          "Coverage is exact accounts, raw slots and code presence; not storage interpretation.",
+          "Historical proof results are not current state, price or payment authorization.",
+          "Keep inputs static; rereads are not an atomic snapshot."
+        ],
+        "demo": "Real historical ZTO and ZTO/IMD proofs; inherited RPC checkpoint, not consensus authentication."
+      }
+    },
+    {
+      "command": "python3 -B shared/claim-bridge/bridge.py demo",
+      "exit": 0,
+      "result": {
+        "checked": [
+          {
+            "line_end": 26,
+            "line_start": 17,
+            "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+            "verified": true
+          },
+          {
+            "line_end": 34,
+            "line_start": 25,
+            "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+            "verified": true
+          },
+          {
+            "line_end": 10,
+            "line_start": 1,
+            "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+            "verified": true
+          },
+          {
+            "line_end": 10,
+            "line_start": 1,
+            "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+            "verified": true
+          }
+        ],
+        "citations": 4,
+        "documents": 2,
+        "failures": [],
+        "format": "claim-bridge/v1",
+        "trust": "Citation integrity only; proof checkpoint trust remains external.",
+        "verified": true
+      }
+    }
+  ],
+  "new_copied_sources_match": true,
+  "inherited_proof_handoff_frozen_copies_match": true
+}

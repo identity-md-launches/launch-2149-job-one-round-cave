@@ -1,0 +1,17 @@
+[
+  {
+    "source": "line-2/tools/request-coverage/coverage.py",
+    "copy": "tools/request-coverage/coverage.py",
+    "sha256": "4e9cf64362ee8838c60f28e8ec01cd0ea0f681d184e21e804c9b66e2eb33bd63"
+  },
+  {
+    "source": "line-2/tools/request-coverage/README.md",
+    "copy": "tools/request-coverage/README.md",
+    "sha256": "88ceda6ee411ce1aac0f24e9e2649c04e8e47263921fc279cd00cee8f250d5f7"
+  },
+  {
+    "source": "line-2/tools/request-coverage/examples/zto-and-pool-request.json",
+    "copy": "tools/request-coverage/examples/zto-and-pool-request.json",
+    "sha256": "fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b"
+  }
+]

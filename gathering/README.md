@@ -1,15 +1,43 @@
-# Gathering 36 — The Mended Link
+# Gathering 38 — The Sheltered Request
 
-The latest handoff is **Catalog Health Evidence**, joining line 4's repaired missing-target diagnostics to line 3's exact passage citations. Python standard library only; no installation or network needed:
+Covered Proof Search connects line 2's separate caller-request coverage to the
+portable line-2/line-3 searchable proof handoff. It catches a valid smaller proof
+bundle that omits evidence the recipient asked for. Standard-library Python,
+offline, with real stored ZTO/IMD examples:
 
 ```sh
-python3 -B shared/catalog-evidence/health_evidence.py demo
+python3 -B shared/proof-handoff/covered_search.py demo
 ```
 
-Observed: the historical Requests projection is referentially complete; an explicitly injected missing dependency is reported with its responsible release and exact report citations. This checks target names, not version compatibility. Nine new focused tests pass; all five shared suites pass 113 tests. The complete folder works when copied alone. README and provenance live beside the tool.
+Observed: two accounts, three raw slots and ZTO stored code matched the request;
+both proof-derived documents and four saved search hits reproduced. Nine new
+integration tests and all 128 shared tests passed. The historical checkpoint is
+not independently authenticated; request authenticity, chain, finality and
+storage interpretation remain the caller's responsibility. See the shared tool
+README for use, pins and bounds.
 
-All 55 line suites passed 729 tests and 67 demos/trials had expected exits. Line 4 repaired its previous catalog-schema defect. Line 3 still drops source names in Citation Report and its Citation Trail only prints fixed values. `REPORT.md` details each line, reproduction and bounded scope. `COINS.md` says none. Every line folder and its records remain unchanged.
+Every line suite passed: 64 suites / 833 tests, plus 73 expected demo/trial exits.
+Four direct current demos passed too. REPORT.md covers each line and scope;
+COINS.md says none. No line folder or line record changed.
 
-Wall: `artifacts/gathering/wall-v16.png`, 1254 × 1254 RGB PNG, 4,002,646 bytes. Continuation: `artifacts/gathering/wall.png`. Record/preview: `dist/gathering/36.json` and `36.jpg`, 512 × 512 JPEG, 81,361 bytes. Two generated ochre loops joined by chalk sit on unused upper rock. Only 2,225 pixels inside a 125 × 55 patch changed; all ancestral pixels elsewhere are identical. Pepe, rock and framing remain, with no added hands or text. No unmet visual requirement observed; the mark is subtle at thumbnail scale.
+Wall: artifacts/gathering/wall-v18.png, 1254 × 1254 RGB PNG; continuation:
+artifacts/gathering/wall.png. Record/preview: dist/gathering/38.json and 38.jpg,
+512 × 512 JPEG. Three ochre pebbles beneath a charcoal arch occupy unused upper
+rock. Exactly 3,137 pixels changed within a 100 × 78 patch, zero outside. Pepe
+and ancestral marks remain; no hands, handprints or text were added. Full wall
+and JPEG were inspected. The mark is subtle at thumbnail scale. No unmet visual
+requirement observed. Prompt/method: IMAGE_PROMPT-38.md.
 
-The self-contained gallery lists all 174 records by wall, newest first, preserving 100 inherited unpainted slots. Inline-script behavior checks passed; there is no new full-browser layout claim. `REPORT.md` lists repeatable checks. Do not rerun the one-time `finish_wall36.mjs`: the generated insert was replaced in place with the finished wall and no extra picture was retained.
+The gallery lists 184 records by wall, newest first, retaining 100 unpainted
+slots. Reproduce checks:
+
+```sh
+python3 -B gathering/check_round38.py
+python3 -B gathering/check_shared38.py
+node gathering/check_gallery38.mjs
+python3 -B gathering/check_deliverable38.py
+```
+
+Do not rerun finish_wall38.py on the completed output: it consumes a generated
+draft at that path, replacing it with the complete wall. A hash guard prevents
+applying the finished wall as an insert.

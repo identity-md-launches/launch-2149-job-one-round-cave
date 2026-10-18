@@ -1,0 +1,286 @@
+[
+  {
+    "command": "python3 -B line-1/tools/json-change-audit/json_change_audit.py --demo",
+    "exit": 0,
+    "result": {
+      "retained": {
+        "status": "checked",
+        "changes": [
+          {
+            "side": "ours",
+            "pointer": "/review/required",
+            "operation": "set",
+            "retained": true,
+            "branch_conflict": false,
+            "status": "checked"
+          },
+          {
+            "side": "theirs",
+            "pointer": "/obsolete",
+            "operation": "delete",
+            "retained": true,
+            "branch_conflict": false,
+            "status": "checked"
+          }
+        ]
+      },
+      "lost_edit": {
+        "status": "review",
+        "changes": [
+          {
+            "side": "ours",
+            "pointer": "/review/required",
+            "operation": "set",
+            "retained": false,
+            "branch_conflict": false,
+            "status": "review"
+          },
+          {
+            "side": "theirs",
+            "pointer": "/obsolete",
+            "operation": "delete",
+            "retained": true,
+            "branch_conflict": false,
+            "status": "checked"
+          }
+        ]
+      },
+      "restored_deletion": {
+        "status": "review",
+        "changes": [
+          {
+            "side": "ours",
+            "pointer": "/review/required",
+            "operation": "set",
+            "retained": true,
+            "branch_conflict": false,
+            "status": "checked"
+          },
+          {
+            "side": "theirs",
+            "pointer": "/obsolete",
+            "operation": "delete",
+            "retained": false,
+            "branch_conflict": false,
+            "status": "review"
+          }
+        ]
+      },
+      "limits": [
+        "JSON object members are compared structurally; arrays and type replacements are atomic.",
+        "Conflicting branch expectations always require review, even if candidate chooses one.",
+        "Only branch changes are checked; unrelated candidate edits and non-JSON contents are not audited.",
+        "No semantic correctness, approval, rename tracking, formatting or author authentication.",
+        "Stable trusted workspace trees required; reads are bounded but not atomic.",
+        "Pointers expose member names. Reports omit values; manifests are not confidentiality."
+      ]
+    }
+  },
+  {
+    "command": "python3 -B line-2/tools/request-coverage/coverage.py demo",
+    "exit": 0,
+    "result": {
+      "coverage": [
+        {
+          "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+          "code": false,
+          "slots": [
+            "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b"
+          ]
+        },
+        {
+          "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "code": true,
+          "slots": [
+            "0x0",
+            "0x1"
+          ]
+        }
+      ],
+      "demo": "Historical real ZTO and ZTO/IMD proofs; the fixed block hash is an RPC observation, not an independently authenticated checkpoint.",
+      "format": "request-coverage-result/1",
+      "proofSet": {
+        "accounts": [
+          {
+            "code": {
+              "byteLength": 1287,
+              "keccak256": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+              "storedCodeKind": "nonempty",
+              "verified": true
+            },
+            "state": {
+              "accountExists": true,
+              "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+              "codeHash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+              "nativeBalanceWei": "0",
+              "nonce": "0x1",
+              "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+              "storage": [
+                {
+                  "exists": false,
+                  "slot": "0x0",
+                  "value": "0x0"
+                },
+                {
+                  "exists": false,
+                  "slot": "0x1",
+                  "value": "0x0"
+                }
+              ],
+              "storageRoot": "0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8",
+              "verified": true
+            }
+          },
+          {
+            "state": {
+              "accountExists": true,
+              "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+              "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+              "nativeBalanceWei": "57499945682580518811968",
+              "nonce": "0x1",
+              "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+              "storage": [
+                {
+                  "exists": true,
+                  "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+                  "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+                }
+              ],
+              "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+              "verified": true
+            }
+          }
+        ],
+        "anchor": {
+          "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+          "blockNumber": "0x18ff826",
+          "headerSchema": "prague",
+          "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+          "timestamp": "0x6ad36f57"
+        },
+        "manifestSha256": "a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f",
+        "trust": "Every listed account and slot is proven against one header matching the supplied hash. The caller must authenticate that hash, chain, canonicality and finality independently. Code checks establish stored byte identity only, not source, ABI, layout, proxy targets or behavior.",
+        "verified": true
+      },
+      "requestSha256": "fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b",
+      "trust": "Coverage matches the separately supplied request and every proof matches the supplied block hash. Authenticate the request and checkpoint independently.",
+      "verified": true
+    }
+  },
+  {
+    "command": "python3 -B line-3/tools/search-replay/replay.py demo",
+    "exit": 0,
+    "result": {
+      "historical_zto_result": {
+        "format": "evidence-search-replay/v1",
+        "reproduced": true,
+        "limit": 3,
+        "expected_hits": 3,
+        "saved_hits": 3,
+        "current_sources_checked": false,
+        "scope": "Deterministic snapshot ranking and citations; not truth or live freshness."
+      },
+      "altered_line_citation": {
+        "format": "evidence-search-replay/v1",
+        "reproduced": false,
+        "limit": 3,
+        "expected_hits": 3,
+        "saved_hits": 3,
+        "current_sources_checked": false,
+        "scope": "Deterministic snapshot ranking and citations; not truth or live freshness."
+      }
+    }
+  },
+  {
+    "command": "python3 -B line-4/tools/solution-census/census.py demo",
+    "exit": 0,
+    "result": {
+      "candidate_assignments": 216,
+      "catalog_sha256": "618c866ea4556e9df209a514d6e91894fd5ee71b47c7b700a65db9fa93d70f77",
+      "checked_assignments": 216,
+      "classification": "multiple",
+      "compatible_selections": 26,
+      "count_kind": "exact",
+      "demonstration_roots": {
+        "requests": "*",
+        "urllib3": "<2"
+      },
+      "max_assignments": 10000,
+      "method": "finite-solution-census-v1",
+      "packages": {
+        "certifi": {
+          "absent": 0,
+          "always_absent": false,
+          "forced": null,
+          "versions": {
+            "2025.10.5": 13,
+            "2025.8.3": 13
+          }
+        },
+        "chardet": {
+          "absent": 24,
+          "always_absent": false,
+          "forced": null,
+          "versions": {
+            "4.0.0": 2
+          }
+        },
+        "charset-normalizer": {
+          "absent": 2,
+          "always_absent": false,
+          "forced": null,
+          "versions": {
+            "3.4.3": 12,
+            "3.4.4": 12
+          }
+        },
+        "idna": {
+          "absent": 0,
+          "always_absent": false,
+          "forced": null,
+          "versions": {
+            "2.10": 10,
+            "3.10": 8,
+            "3.11": 8
+          }
+        },
+        "requests": {
+          "absent": 0,
+          "always_absent": false,
+          "forced": null,
+          "versions": {
+            "2.25.1": 2,
+            "2.31.0": 12,
+            "2.32.5": 12
+          }
+        },
+        "urllib3": {
+          "absent": 0,
+          "always_absent": false,
+          "forced": "1.26.20",
+          "versions": {
+            "1.26.20": 26,
+            "2.5.0": 0
+          }
+        }
+      },
+      "status": "complete",
+      "witnesses": [
+        {
+          "certifi": "2025.8.3",
+          "charset-normalizer": "3.4.3",
+          "idna": "2.10",
+          "requests": "2.31.0",
+          "urllib3": "1.26.20"
+        },
+        {
+          "certifi": "2025.8.3",
+          "charset-normalizer": "3.4.3",
+          "idna": "2.10",
+          "requests": "2.32.5",
+          "urllib3": "1.26.20"
+        }
+      ]
+    }
+  }
+]

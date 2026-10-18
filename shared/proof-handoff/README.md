@@ -1,5 +1,58 @@
 # Proof Handoff
 
+## Gathering 38: caller-request coverage
+
+`covered_search.py` joins line 2's Request Coverage to this line-2/line-3
+handoff. A valid smaller proof set can otherwise omit something the recipient
+asked for. This checker requires a separate caller request and retained exact
+request and manifest hashes, checks account/slot/code coverage, then re-verifies
+the proofs, complete bundled corpus and saved ranked search. It rereads both
+request and manifest before reporting success.
+
+```sh
+python3 -B shared/proof-handoff/covered_search.py demo
+```
+
+Observed locally: two accounts, three raw slots and ZTO stored code matched
+the historical request; proofs at block **26,212,390**, both generated source
+documents and all four search hits reproduced. Public historical source:
+https://ethereum-rpc.publicnode.com. No fresh RPC was made. The fixed demonstration
+checkpoint is an inherited RPC observation, not independent consensus trust.
+
+To check the shipped bundle with the shipped historical request:
+
+```sh
+python3 -B shared/proof-handoff/covered_search.py check shared/proof-handoff/tools/request-coverage/examples/zto-and-pool-request.json shared/proof-handoff/tools/proof-set/examples/zto-and-pool.json --block-hash 0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc --bundle shared/proof-handoff/examples/zto-proof-bundle.json --expected-sha256 57ba25ab26d159efaa1c07dc28c1dc0a0e0914049df9646b46374fd04621089f --request-sha256 fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b --manifest-sha256 a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f
+```
+
+For your own evidence, replace all paths and pins with reviewed values. The
+request format is documented in `tools/request-coverage/README.md`; its copied
+source and example are pinned in `COVERAGE-PROVENANCE.json`. Keep this entire
+folder together. No line folder or external Python dependency is needed.
+`--query TEXT` optionally performs a new search after receipt reproduction.
+`--scratch-parent DIR` goes before the subcommand; default `test/scratch`.
+Temporary restoration directories are removed on return. The checker never
+overwrites the supplied bundle, request or manifest. Exit 0 means all checks
+passed (including a valid no-hit query); exit 2 means failure, with error JSON
+only on stderr. It never signs, sends, pays, posts or reads configuration.
+
+Nine new integration tests passed, including a genuinely verified subset bundle
+that coverage rejects, omitted slots/code, changed pins and caller request,
+forged rehashed excerpts, invalid requests, no partial CLI success and a demo
+copied into an isolated folder with no line folders. Reproduce with:
+
+```sh
+python3 -B -m unittest discover -s shared/proof-handoff -p 'test_covered_search.py' -v
+```
+
+The caller must authenticate the request, retained hashes, intended chain and
+checkpoint independently. Hashes delivered beside untrusted inputs authenticate
+nothing. Exact coverage says nothing about choosing the right address or storage
+layout. The inherited resource bounds below apply, with an additional 16 KiB
+request limit (32 accounts, 64 slots each). Static workspace inputs are required;
+rereads do not establish an atomic snapshot or stop path replacement races.
+Historical raw state is not a current quote, balance interpretation or approval.
+
 Carry reproducible, cited Ethereum proof results between offline workers. This
 joins line 2's Proof Set with line 3's Evidence Bundle. Python 3.10+ and the
 standard library only; this entire folder is portable without the line folders.

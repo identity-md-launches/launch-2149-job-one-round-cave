@@ -1,0 +1,30 @@
+{
+  "name": "The Sheltered Request",
+  "image": "https://api.imd.fun/artifacts/97af73b9690a31c4eb35dfa354188f7503f354f6782e2871299c7dce12640861",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 38
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Covered Proof Search"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three gathered stones stay beneath one arch so no requested piece is left outside."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

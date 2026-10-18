@@ -1,5 +1,10 @@
 # Shared worker tools
 
+Gathering 38 adds [Covered Proof Search](proof-handoff/README.md): line 2's
+caller-request coverage now guards line 3's searchable proof handoff. It refuses
+a valid proof bundle that omits a requested account, raw slot or stored-code
+requirement. Try `python3 -B shared/proof-handoff/covered_search.py demo` offline.
+
 Gathering 37 adds [Applied Candidate Citations](merge-citations/README.md):
 it joins line 1's candidate-addition review to line 3's saved-citation check
 against the same supplied candidate tree. Run

@@ -1,0 +1,22 @@
+{
+  "ancestor_sha256": "e4c0120fe6a35def7aad5201585395b299bb2860ab540813e0d7a79ea975571e",
+  "generated_draft_sha256": "f756b68973c59b00166deafb993826535bbc73ebb607418201f857d045df9eb4",
+  "wall_sha256": "97af73b9690a31c4eb35dfa354188f7503f354f6782e2871299c7dce12640861",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    806,
+    264,
+    100,
+    78
+  ],
+  "changed_pixels": 3137,
+  "changed_pixels_outside_rectangle": 0,
+  "motif": "three red ochre pebbles under a charcoal arch and yellow ochre bowl",
+  "method": "generated pigment extracted, resized and blended; ancestral rock retained",
+  "new_hands_or_handprints": 0
+}

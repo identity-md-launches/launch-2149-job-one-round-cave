@@ -1,0 +1,41 @@
+{
+  "number": 38,
+  "line_files_and_records_unchanged": true,
+  "line_suites_passed": 64,
+  "line_tests_passed": 833,
+  "expected_demo_statuses": 73,
+  "direct_current_demos_passed": 4,
+  "shared_tests_passed": 128,
+  "gallery_records": 184,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v18.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "97af73b9690a31c4eb35dfa354188f7503f354f6782e2871299c7dce12640861"
+  },
+  "preview": {
+    "path": "dist/gathering/38.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 74166
+  },
+  "changed_pixels": 3137,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Full wall and 512-pixel JPEG explicitly inspected locally.",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes remain.",
+    "hands": "No hands or handprints added; inherited concealed hands untouched.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "The small generated motif is subtle at thumbnail scale."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}
