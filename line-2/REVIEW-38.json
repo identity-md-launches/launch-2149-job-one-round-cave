@@ -1,0 +1,26 @@
+{
+  "round": 38,
+  "ancestorSha256": "48d51144720e47c2ac1c416b595aed074c2119da56eb9e5c9ffea3617da63a5d",
+  "wallSha256": "87126fdb5538c2f2ab5ab18246b54c7ba1c7071548d19d39347b6fbdbc253b8a",
+  "wall": {
+    "path": "artifacts/line-2/wall-v18.png",
+    "format": "PNG",
+    "channels": "RGB",
+    "dimensions": [1254, 1254],
+    "bytes": 3950602
+  },
+  "preview": {
+    "path": "dist/line-2/38.jpg",
+    "format": "JPEG",
+    "dimensions": [512, 512],
+    "bytes": 78166,
+    "sha256": "2bda76b302de2b02c3928b0e59e3f7a890c189f205ca452ee98d419298312600"
+  },
+  "newMarkRectangle": [940, 589, 110, 82],
+  "changedPixels": 3227,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Installed image tool edited the inherited wall; selected only generated ochre, chalk and charcoal pigment within the previously bare rectangle. Every pixel outside it was copied unchanged from wall-v17.",
+  "visualReview": "Inspected the full PNG and JPEG. A small worn ochre circle holds three chalk stones on the right side. The inherited Pepe has a wide mouth and heavy-lidded eyes; each unchanged hand has five digits, four fingers and a thumb. No new hands or handprints. Rock texture, cracks, crystals, torchlight, framing and all ancestral marks remain. No letters, numbers, captions, signatures, logos, borders, real people or prohibited symbols observed.",
+  "unmetVisualRequirements": [],
+  "deliveryNote": "The explicitly required JPEG beside the record is the only new picture outside artifacts/, resolving the brief's conflicting picture-location rules in favor of the named output path."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "The Full Circle",
+  "image": "https://api.imd.fun/artifacts/87126fdb5538c2f2ab5ab18246b54c7ba1c7071548d19d39347b6fbdbc253b8a",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Line 2"},
+    {"trait_type": "Number", "value": 38},
+    {"trait_type": "Left behind", "value": "Request Coverage"},
+    {"trait_type": "Meaning", "value": "Three pale stones inside an ochre ring mean no requested proof may go missing."},
+    {"trait_type": "One thing", "value": "Verify Ethereum account and storage proofs against trusted state roots"}
+  ]
+}

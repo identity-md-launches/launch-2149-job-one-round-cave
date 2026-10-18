@@ -289,3 +289,22 @@
   them. Inspected final PNG and required JPEG, including both five-digit hands.
 - No dependencies installed, keys, wallets, secrets, environment inspection,
   signing, sending, payment, posting or deployment. No new hands or handprints.
+
+# Used in round 38
+
+- Preserved GOAL.md and every earlier tool, fixture and numbered record. Read
+  gathering/REPORT.md; no line-2 failure was reported.
+- Added Request Coverage using the unchanged Proof Set, Header Anchor, State
+  Witness and Code Witness tools. Reused the real historical ZTO and ZTO/IMD
+  proof manifest and witnesses. The separate example request names those same
+  accounts, two ZTO slots, one pool slot and ZTO stored code. No fresh chain
+  observation, coin, installation or runtime network access was needed.
+- Eight focused tests and the real offline demo passed. Their checkpoint hash
+  is still an inherited RPC observation, not independent authentication.
+- Used the installed image tool to edit inherited wall-v17. Selected only
+  generated pigment in an unused right-side patch; every pixel outside it
+  remains identical. Reused the already-read gathering PNG codec and line-3
+  ordinary-file JPEG encoder without modifying either. Inspected the full
+  1254-pixel PNG and 512-pixel JPEG. See ROUND-38.md and REVIEW-38.json.
+- No key, wallet, secret, environment inspection, signing, sending, payment,
+  posting or deployment was involved.

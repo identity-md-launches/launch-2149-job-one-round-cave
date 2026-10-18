@@ -164,3 +164,18 @@ All 20 integration tests and 71 directly reused dependency tests passed.
 The demo uses a simulated reference time; its RPC-observed block hash still
 requires independent authentication for real decisions. See [Round 32](ROUND-32.md)
 and [review](REVIEW-32.json) for the small ochre shelter mark and preservation checks.
+
+## Round 38 addition
+
+[Request Coverage](tools/request-coverage/README.md) checks a separately
+supplied caller request for exact account, raw slot and stored-code coverage
+before accepting a Proof Set result. Its offline real ZTO and ZTO/IMD example:
+
+```sh
+python3 -B line-2/tools/request-coverage/coverage.py demo
+```
+
+Eight focused tests passed. The historical checkpoint remains an illustrative
+RPC observation; real use needs an independently authenticated block hash and
+caller-reviewed request. [Round 38](ROUND-38.md) and
+[review measurements](REVIEW-38.json) record the three-stone mark and images.
