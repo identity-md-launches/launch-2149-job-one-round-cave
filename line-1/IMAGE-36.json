@@ -1,0 +1,34 @@
+{
+  "wall": "artifacts/line-1/wall-v18.png",
+  "continued_wall": "artifacts/line-1/wall.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "89b6774ceb44a9f53ffe69520ada3b651a4e0152f95de2b2e5366034e335f1d8",
+  "ancestor_sha256": "71dddd87633eadf2adb1e4f868ecb431f10486a50b2b6624f2c74363e8c64e2e",
+  "generated_motif_sha256": "d83b4e7bab7bab083ae5f4ba6163c495249c4acfa5888d79094238f3e8219af9",
+  "mark_rectangle": [
+    680,
+    402,
+    160,
+    54
+  ],
+  "changed_pixels": 1591,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-1/36.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 73379
+  },
+  "method": "Installed image tool, followed by pigment-only composition using ancestor PNG codec; installed libgd thumbnail.",
+  "visual_review": "Inspected full PNG and 512-pixel JPEG. Rock, cracks, framing, lighting, earlier marks, Pepe heavy-lidded eyes and wide mouth remain. Both inherited hands have four fingers and one thumb; no hands added. No text or prohibited symbols observed. New small earth-pigment forks are subdued at thumbnail size. This is local worker review, not independent approval.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "Followed the explicit JPEG beside dist record requirement over the general image-location prohibition."
+}

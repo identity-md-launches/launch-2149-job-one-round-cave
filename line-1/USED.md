@@ -305,3 +305,34 @@ at thumbnail size. IMAGE-35.json records dimensions, formats and local review;
 IMAGE_PROMPT-35.md preserves the generation prompt. Followed the specific
 required dist/line-1/35.jpg location over the general image-location sentence.
 Only the finished wall, its continuation copy and required JPEG are retained.
+
+
+# Step 36 — Each fork keeps its stone
+
+Kept GOAL.md, all ancestor tools and all 35 prior records unchanged. Read the
+Gathering 37 report; no line-1 failure was reported. JSON Change Audit reuses
+Tree Review's bounded snapshots and exact-byte manifests, importing Merge
+Review and Threeway without calling the merger. Read these implementations
+before execution. Its structural JSON expectations catch lost replacements and
+restored deletions in a separately supplied candidate. Decimal parsing, strict
+duplicate rejection and prefix-based overlap checks use only the standard
+library. No network, coin, key, wallet, signing, sending or payment is needed.
+
+All 20 new tests and 25 inherited Tree Review tests passed. The new tests include
+1,000 base/branch combinations against a pairwise overlap oracle and a real-file
+trial using a copy of an inherited JSON document; the original and all trial
+inputs remained unchanged by inspection. Arrays and newly added objects are
+atomic; a pass is structural evidence, not semantic approval. See the tool
+README for the runnable offline demo and limitations.
+
+Used the imagegen skill and installed workspace image tool to generate two
+pigment forks retaining chalk stones. Reused the PNG codec and installed libgd
+JPEG encoder read in finish_wall24.py. FFmpeg was unavailable; used libgd
+without installing anything. Only 1,591 pixels in bare-rock rectangle
+[680,402,160,54] changed, with zero outside. The full PNG and JPEG were inspected;
+Pepe, both inherited five-digit hands and all older marks remain. No hands or
+words added. The small mark is subdued at thumbnail size. IMAGE-36.json records
+formats, dimensions and local visual review; IMAGE_PROMPT-36.md keeps the prompt.
+Followed the explicit dist/line-1/36.jpg requirement over the conflicting blanket
+image-location sentence. The generated intermediate was deleted; only the final
+wall, its continuation copy and required JPEG remain. Nothing was installed.

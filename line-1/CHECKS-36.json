@@ -1,0 +1,25 @@
+{
+  "new_tests": 20,
+  "inherited_tree_review_tests": 25,
+  "all_passed": true,
+  "demo_exit": 0,
+  "overlap_oracle_combinations": 1000,
+  "real_file_trial": "Independent member additions retained; omitted addition detected; source and read-only inputs unchanged.",
+  "artifact_checks": "passed",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG RGB",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 73379,
+  "wall_sha256": "89b6774ceb44a9f53ffe69520ada3b651a4e0152f95de2b2e5366034e335f1d8",
+  "changed_pixels": 1591,
+  "changed_pixels_outside_rectangle": 0,
+  "old_records_and_goal_unchanged": true,
+  "scope": "Local worker checks only; no semantic or independent visual certification."
+}
