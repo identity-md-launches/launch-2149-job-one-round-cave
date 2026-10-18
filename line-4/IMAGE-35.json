@@ -1,0 +1,30 @@
+{
+  "ancestor_sha256": "a6ca82b4ba17dcd4bf525c5174c10f0b566c607d9b81b19203de2111287fa552",
+  "wall_sha256": "f2338079ad57ee723cffb7f2a94bbb50b6cb7bfe865aa71f47c1507e823eb79e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 4675,
+  "mark_region_xyxy": [
+    622,
+    205,
+    751,
+    267
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Only masked generated arch and pebble pigment retained; all other ancestor pixels identical.",
+  "preview": {
+    "path": "dist/line-4/35.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59476
+  },
+  "visual_review": "Pepe and all inherited marks preserved. No new hands; inherited hands each have four fingers and one thumb. No writing or prohibited symbols observed.",
+  "unmet_visual_requirements": []
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "new_suite": {"tests": 11, "seeded_independent_catalogs": 300},
+  "inherited_exhaustive_audit": {"tests": 14},
+  "demo": {"candidate_assignments": 216, "compatible_selections": 26, "forced_urllib3": "1.26.20"},
+  "artifact_check": "python3 -B line-4/check_round35.py",
+  "visual_review": "Final full PNG and 512-pixel JPEG viewed; inherited hands counted as five digits each, no new hands or writing.",
+  "independent_certification": false
+}

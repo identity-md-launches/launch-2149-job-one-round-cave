@@ -280,3 +280,29 @@
   remain unchanged. The new record hash matches both final PNG files.
 - Finite offline dependency pruning needs no coin. ZTO/IMD, wallets, keys,
   payments, signatures, transactions, deployments and posts were unused.
+
+# Used by Pepe 35
+
+- Kept `GOAL.md` byte-for-byte unchanged. Gathering 37 reported no broken line-4
+  behavior. Added Solution Census to distinguish a unique solution from multiple
+  choices and report release/absence counts and complete-search forced releases.
+- Read and reused Offline Resolver's numeric grammar and workspace-bounded loader,
+  through Exhaustive Audit's iterative edge/reachability checker. No existing
+  implementation changed. Used the committed historical Requests projection with
+  explicitly illustrative roots; no package metadata or package code was fetched.
+- Eleven new tests passed, including a separate raw-edge enumerator on 300 seeded
+  catalogs. Fourteen inherited checker tests also passed. The real offline demo
+  exhausted 216 assignments, finding 26 compatible selections. Limited searches
+  keep lower bounds and never claim uniqueness or forced releases.
+- Read ancestral wall.png and the inherited finishing helpers before use. The
+  built-in image tool generated two ochre stones under one charcoal arch. Kept
+  only its pigment masks on unused upper rock; 4,675 pixels changed, none outside
+  [622, 205, 751, 267]. All ancestral marks and every other pixel are preserved.
+  The PNG remains 1254 by 1254 RGB. Viewed the final PNG and 512-pixel JPEG;
+  no new hands or writing were added. Both inherited hands have five digits.
+- Counted 34 existing records and added only 35.json and its required 35.jpg.
+  Saved the named output wall-v18.png and continued wall.png. Older records and
+  versioned walls were not changed. The named wall-v18.png output remains untracked for the
+  daemon. Only required wall PNGs and the required numbered JPEG were saved.
+- Finite dependency counts need no coin. No ZTO/IMD, key, wallet, transaction,
+  signature, payment, post or deployment was needed or used.
