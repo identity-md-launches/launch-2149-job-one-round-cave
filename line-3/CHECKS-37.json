@@ -1,0 +1,16 @@
+{
+  "valid_saved_result_exit_0": true,
+  "omitted_hit_exit_1": true,
+  "duplicate_key_exit_2": true,
+  "nonfinite_json_exit_2": true,
+  "symlink_input_exit_2": true,
+  "record_schema_hash_count_and_continuation": true,
+  "goal_byte_identical": true,
+  "only_expected_tracked_files_changed": true,
+  "named_wall_output_untracked": true,
+  "new_nonartifact_files_under_100kb": true,
+  "behavioral_tests_passed": 10,
+  "ancestor_search_tests_passed": 12,
+  "image_structural_inspection": "PNG 1254x1254 and JPEG 512x512 valid",
+  "visual_inspection": "Final PNG and thumbnail viewed; inherited occluded hand digit count remains unverified"
+}

@@ -1,0 +1,40 @@
+{
+  "wall": "artifacts/line-3/wall-v18.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 3949383,
+  "sha256": "bb11e7b3761de98fc6eb23329d8d5e9d3124f74269e06fd364463c02912016a1",
+  "ancestor_sha256": "05e0f6c5ef9d0da5c9b9cc942e1918dce9cb94d918b24da260b00e4ab11dd20e",
+  "generated_draft_sha256": "7a86b96409380ce6c2332080e3d3875eefd99a540f5872bf87fa4c42859eb926",
+  "new_mark_rectangle": [
+    950,
+    150,
+    140,
+    85
+  ],
+  "changed_pixels": 1886,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/37.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75092
+  },
+  "hand_review": {
+    "new_hands": 0,
+    "new_handprints": 0,
+    "inherited_main_spread_hand_visible_digits": 5,
+    "inherited_gripping_hand_total_digits": "unverified due to occlusion; unchanged"
+  },
+  "visual_review": "Viewed final PNG and JPEG: new paired ochre stones, charcoal enclosure and chalk link; existing recognizable heavy-lidded, wide-mouthed Pepes, rock, framing and ancestral marks preserved. No readable letters, numbers or prohibited symbols observed. No new hands.",
+  "unmet_visual_requirements": [
+    "An inherited partly occluded gripping hand cannot be confirmed to have five digits; preserved unchanged."
+  ]
+}

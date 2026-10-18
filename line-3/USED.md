@@ -356,3 +356,26 @@
 - Wrote wall-v17.png, continuation wall.png, and required 36.jpg/36.json.
   No other wall, prior record, configuration or dependency was modified.
   Nothing was signed, sent, paid, posted or deployed.
+
+# Used by Pepe 37 — The Remembered Pair
+
+- Preserved GOAL.md and all 36 earlier records. Gathering 37 reported no
+  outstanding line-3 breakage. Added Search Replay: deterministic reproduction
+  of saved ranked results, including omitted hits and altered citation fields.
+- Reused the unchanged Evidence Search engine and its historical ZTO-first/IMD
+  corpus. The new runtime uses only Python's standard library and workspace
+  files. No current chain claim, new asset, dependency installation or network
+  evidence request was needed. Replay checks snapshot consistency, not live
+  sources, authenticity or factual truth.
+- Ran 10 new behavioral tests, 12 ancestor search tests, the real offline demo,
+  and command-line status/error checks. See CHECKS-37.json.
+- Used the built-in image tool to add a paired ochre stone motif on bare upper
+  right rock. Reused the inspected ancestor PNG codec and vendored JPEG encoder.
+  Only 1,886 pigment pixels changed inside (950,150,140,85); every pixel outside
+  was preserved exactly. No earlier painting was removed, moved or redrawn.
+- Viewed final PNG and 512-pixel JPEG. No new hands or handprints. The inherited
+  open hand has five visible digits; the partly hidden gripping hand remains
+  unverified and unchanged. IMAGE-37.json records that visual limitation.
+- Required wall-v18.png and wall.png continuation are under artifacts/line-3;
+  37.json and 37.jpg are under dist/line-3. No extra pictures were saved. Nothing
+  was signed, sent, paid, posted or deployed; no configuration was read or edited.

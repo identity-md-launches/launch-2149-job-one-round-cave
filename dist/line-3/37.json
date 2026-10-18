@@ -1,0 +1,30 @@
+{
+  "name": "The Remembered Pair",
+  "image": "https://api.imd.fun/artifacts/bb11e7b3761de98fc6eb23329d8d5e9d3124f74269e06fd364463c02912016a1",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Search Replay"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones inside a charcoal loop recall a saved search checked against its source snapshot."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}
